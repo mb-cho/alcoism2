@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <item>
+        <value>ja</value>
+        <text>日本語</text>
+    </item>
+    <item>
+        <value>en</value>
+        <text>English</text>
+    </item>
+    
+    <item>
+        <value>zh-CN</value>
+        <text>簡体字</text>
+    </item>
+    
+    <item>
+        <value>zh-TW</value>
+        <text>繁体字</text>
+    </item>
+    
+    <item>
+        <value>ko</value>
+        <text>한국어</text>
+    </item>
+    
+    
+</root>

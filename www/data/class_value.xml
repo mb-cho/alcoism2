@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <ja>
+        <top_page>トップページ</top_page>
+        <news>ニュース</news>
+        <blogs>ブログ</blogs>
+        <bbs>掲示板</bbs>
+        <birthday>誕生日</birthday>
+        <diary>日記</diary>
+        <setting>設定</setting>
+        <menu>メニュー</menu>
+        <exit>終了</exit>
+        <lang>言語</lang>
+        <select_lang>言語選択</select_lang>
+        <exit>終了</exit>
+    </ja>
+    <en>
+        <top_page>Translate by image</top_page>
+        <news>News</news>
+        <blogs>Blogs</blogs>
+        <bbs>Bbs</bbs>
+        <birthday>Birthday</birthday>
+        <diary>Diary</diary>
+        <setting>Setting</setting>
+        <menu>Menu</menu>
+        <exit>Exit</exit>
+        <lang>Language</lang>
+        <select_lang>Select your language</select_lang>
+        <exit>Exit</exit>
+    </en>
+    
+    
+    
+</root>

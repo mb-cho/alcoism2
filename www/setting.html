@@ -1,0 +1,24 @@
+
+<ons-navigator>
+    <ons-page 
+        ng-controller="setting__controller" 
+        style="background-color: white"
+        id="setting-page">
+
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center"><span class="setting">Setting</span></div>
+    </ons-toolbar>
+        
+        <ons-list>
+          <ons-list-item class="select_lang">Select your language</ons-list-item>
+        </ons-list>
+        
+        <ons-list>
+          <ons-list-item modifier="tappable" class="target_lang" val="ja">日本語</ons-list-item>
+          <ons-list-item modifier="tappable" class="target_lang" val="en">English</ons-list-item>
+        </ons-list>
+    </ons-page>
+</ons-navigator>

@@ -1,0 +1,15 @@
+/**/
+.kurukuru{
+    display:none;
+    margin:0 auto;
+    margin-bottom: -102px;
+    color:#ffffff;
+}
+
+.select_lang{
+    background-color: #ECECEC;
+}
+/* 不使用  */
+.server_trans{
+    display:none;
+}

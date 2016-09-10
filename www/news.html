@@ -1,0 +1,18 @@
+
+<ons-navigator>
+    <ons-page 
+        ng-controller="news__controller" 
+        style="background-color: white"
+        id="news-page">
+
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center"><span class="news">News</span></div>
+    </ons-toolbar>
+        <ons-list id="news_list">
+        </ons-list>
+        <div id="news_item_url" val="" style="display:none;"></div>
+    </ons-page>
+</ons-navigator>

@@ -1,0 +1,71 @@
+
+<!--
+http://fortawesome.github.io/Font-Awesome/examples/
+から icon を持ってくる
+ここでは現在 fa-home , fa-gear , fa-camera を使っている
+-->
+<ons-page ng-controller="menu_controller" style="background-color: white">
+
+    <ons-list>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('top.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="top_page">Top Page</span>
+        </ons-list-item>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('news.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="news">News</span>
+        </ons-list-item>
+        
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('blogs.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="blogs">Blogs</span>
+        </ons-list-item>
+        
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('bbs.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="bbs">Bbs</span>
+        </ons-list-item>
+        
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('birthday.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="birthday">Birthday</span>
+        </ons-list-item>
+        
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('diary.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="diary">Diary</span>
+        </ons-list-item>
+        
+        <!--
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('setting.html', {closeMenu: true})">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="setting">Setting</span>
+        </ons-list-item>
+        -->
+        
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="Exit();">
+            <i class="fa" style="color: #666"></i>
+            &nbsp;<span class="exit">exit</span>
+        </ons-list-item>
+        
+    </ons-list>
+
+</ons-page>
